@@ -1,0 +1,1 @@
+#This shell script checks for the Java Development Kit, and then sets yout PATH to point to the JDK.
