@@ -20,7 +20,7 @@ then
      run
 elif [ $ansr == "SET" ];
 then
-     set
+     crunch
 else
   exit
 fi
@@ -39,7 +39,7 @@ else
    echo "This only works on the December 19, 2013 build."
 fi
 }
-set()
+crunch()
 {
 export PATH=$PATH:opt/jdk1.8.0/bin
 }
