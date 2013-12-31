@@ -5,11 +5,11 @@ clear
 sleep 2
 
 echo "
-++++++++++++++++++++++++++++++++++++++
-Please Install Linux Tarball From Here
 
- http://jdk8.java.net/download.html
-++++++++++++++++++++++++++++++++++++++"
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+               Java Development Kit Installer (Hard Float)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                                      "
 
 echo "Type INSTALL to install the JDK for arm, type SET to set path."
 
@@ -27,6 +27,8 @@ fi
 
 run() 
 {
+wget http://www.java.net/download/jdk8/archive/b121/binaries/jdk-8-ea-b121-linux-arm-vfp-hflt-19_dec_2013.tar.gz
+
 cd Downloads
 echo "Please enter your computer User Name"
 
