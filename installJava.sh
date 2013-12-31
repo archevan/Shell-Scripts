@@ -11,15 +11,18 @@ Please Install Linux Tarball From Here
  http://jdk8.java.net/download.html
 ++++++++++++++++++++++++++++++++++++++"
 
-echo "Type YES to Continue."
+echo "Type INSTALL to install the JDK for arm, type SET to set path."
 
 read ansr
 
-if [ $ansr == "YES" ];
+if [ $ansr == "INSTALL" ];
 then
      run
+elif [ $ansr == "SET" ];
+then
+     set
 else
-     exit
+  exit
 fi
 
 run() 
@@ -35,4 +38,8 @@ if [ /home/$USER/Downloads/jdk-8-ea-b121-linux-arm-vfp-hflt-19_dec_2013.tar.gz ]
 else
    echo "This only works on the December 19, 2013 build."
 fi
+}
+set()
+{
+export PATH=$PATH:opt/jdk1.8.0/bin
 }
