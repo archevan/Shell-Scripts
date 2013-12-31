@@ -2,14 +2,11 @@ This is a tool designed to unpack, install, add the Java Development Kit to your
 
                               Installation
                             +++++++++++++++
-                   1)Download The Linux ARM HardFP ABI.
-                *Make sure it is in your Downloads Folder!
-                   2)Open up the Terminal Application.
-                   3)Type in ". javaInstall.sh"
-                   4)Type in "INSTALL"
+       1)Download the .ZIP from the repository, and unpack into "Downloads" folder.
+              2) Open up the Terminal and type in "cd Downloads".
+              3) Then, type in ". javaInstall.sh"
+              4) Select option and let program run.
                           You're Finished!!
-*Everytime you restart the computer or open a new Terminal, you will have to re-run the program and type in "SET"*
 
-   
-    *NOTE* This tool is made for a computer with an ARM processer, and therefore should not be used with any other type of computer *NOTE*
-    *NOTE* I will try to keep this updated with the newest builds for the arm processer, right now it will only work with the December 19, 2013 build *NOTE*
+*Everytime you restart the computer or open a new Terminal, you will have to re-run the program and type in "SET"*
+*NOTE* This tool is made for a computer with an ARM processer, and therefore should not be used with any other type of computer *NOTE*
