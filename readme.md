@@ -8,5 +8,5 @@ This is a tool designed to unpack, install, add the Java Development Kit to your
 3. Then, type in "./javaInstall.sh"
 4. Select option and let program run.
 
--Everytime you restart the computer or open a new Terminal, you will have to re-run the program and type in "SET".
--This tool is made for a computer with an ARM processer, and therefore should not be used with any other type of computer.
+*Everytime you restart the computer or open a new Terminal, you will have to re-run the program and type in "SET".
+*This tool is made for a computer with an ARM processer, and therefore should not be used with any other type of computer.
